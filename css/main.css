@@ -1,7 +1,15 @@
-
 body{
     width: 960px;
     margin: 0 auto;
+}
+
+section ul li a{
+    font-weight: 100;
+    color: #E3E3E3;
+}
+
+.line_feed li a{
+    color: #272822;
 }
 
 .line_feed li{
@@ -96,14 +104,3 @@ nav a{
     width: 450px;
     height: 633px;
 }
-
-
-
-/*nav ul{
-    display: inline-block;
-    list-style: none;
-}
-nav a{
-    padding: 10px;
-}
-*/
