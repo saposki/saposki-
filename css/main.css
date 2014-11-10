@@ -1,0 +1,109 @@
+
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.line_feed li{
+    list-style: none;
+    float: left;
+    height: 633px;
+    width: 49%;
+    border-left: 1px solid #E3E3E3;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+}
+.line_feed_splash{
+    border-right: 1px solid #E3E3E3;
+}
+
+.line_feed li a{
+    text-decoration: none;
+}
+
+
+.saposki_label{
+    z-index: 1;
+    margin-top: 315px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+.splash_label{
+    z-index: 1;
+    margin-top: 315px;
+    margin-left:3px;
+    position: absolute;
+}
+
+section nav{
+    width: 700px;
+
+   /* width: 70%;
+    float:left;
+    margin: 0 0 10px 15%;
+    */
+}
+
+nav {
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+
+nav ul {
+    padding: 0 18% 0 32%;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 15px 5px;
+    text-decoration: none;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.line_img {
+    width: 450px;
+    height: 633px;
+}
+
+
+
+/*nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav a{
+    padding: 10px;
+}
+*/
